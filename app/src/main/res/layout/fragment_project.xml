@@ -1,0 +1,933 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lucknow.deepaksachan.shinecity_mlmpanel.Activity.ProjectActivityFragment">
+
+
+    <LinearLayout
+      android:background="#1E90FF"
+        android:id="@+id/back_iv"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:padding="5dp"
+            android:src="@mipmap/enterpin"
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:text="Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <ScrollView
+        android:padding="16dp"
+        android:layout_below="@id/back_iv"
+        android:id="@+id/iv_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+
+            <LinearLayout
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:text="WELCOME TO "
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textColor="#71b100"
+                    android:text="Shinecity Project Gallery"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/titleseparator_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+            <LinearLayout
+
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <!--   <.....................................Lucknow.................-->
+
+                <LinearLayout
+                    android:id="@+id/lko"
+                    android:background="@drawable/textview_border"
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_weight="4"
+
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:text="Lucknow"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+                <FrameLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/iv_lucknow_down"
+                        android:padding="5dp"
+                        android:src="@mipmap/icon_arrow_down"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+                    <ImageView
+                        android:visibility="gone"
+                        android:id="@+id/iv_lucknow_up"
+                        android:padding="5dp"
+                        android:src="@mipmap/icon_arrow_up"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+                </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/lko_paradise_garden"
+                     android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="#000"
+                        android:layout_gravity="center"
+                        android:textSize="22sp"
+                        android:gravity="center"
+                        android:text="Paradise Garden"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                         android:background="#4DC2E6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:padding="10dp"
+                            android:textColor="#fff"
+                            android:textSize="20sp"
+                            android:text="Paradise Garden: 701/-"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="Shine city's primary business is development of residential, commercial and retail properties. The Company has a unique business model with earnings arising from development Shine City offers you the opportunity to live life in a relaxed yet grand way. So while you sip on chai with your friends, or read a book while enjoying the scenery or simply take a walk with your loved once, we see to it that your home and its amenities are a perfect blend of comfort and style.
+
+An eco friendly approach is kept to design the layout of the whole projects. Paradise Garden is a perfect place to settle with your loved one. A project with modern infrastructure yet connected to Mother Nature in deeper sense which provides peace of mind and soul to the lives of the people owning a home at Paradise Garden."
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:background="#000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"/>
+
+                    <TextView
+                        android:textColor="#000"
+                        android:text="Project Location Details"
+                        android:textSize="24dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="#000"
+                        android:text="Location :	Sitapur Road Pargna Mahona, Tehsil (Bakshi ka Talab) Lucknow."
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+                <!--    <       End   ..........................................Lucnow Data>>>-->
+
+
+                <!--   <.....................................Kanpur.................-->
+
+                <LinearLayout
+                    android:id="@+id/kanpur_linear"
+                    android:background="@drawable/textview_border"
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="4"
+
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:padding="5dp"
+                        android:text="Kanpur"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                    <FrameLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/iv_kanpur_down"
+                            android:padding="5dp"
+                            android:src="@mipmap/icon_arrow_down"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp" />
+
+                        <ImageView
+                            android:visibility="gone"
+                            android:id="@+id/iv_kanpur_up"
+                            android:padding="5dp"
+                            android:src="@mipmap/icon_arrow_up"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp" />
+
+                    </FrameLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                      android:visibility="gone"
+                    android:id="@+id/linear_kanpur_visibility"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="#000"
+                        android:layout_gravity="center"
+                        android:textSize="22sp"
+                        android:gravity="center"
+                        android:text="Kanpur Galaxy"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:background="#4DC2E6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:padding="10dp"
+                            android:textColor="#fff"
+                            android:textSize="20sp"
+                            android:text="601/- sq. ft.-"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:background="#000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"/>
+
+                    <TextView
+                        android:textColor="#000"
+                        android:text="Project Location Details"
+                        android:textSize="24dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <LinearLayout
+
+                            android:background="@drawable/textview_border"
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="1"
+                                android:text="Location"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                            <View
+
+                                android:background="#D3D3D3"
+                                android:layout_width="1dp"
+                                android:layout_height="fill_parent"/>
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="3"
+                                android:text="Kanpur"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:background="@drawable/textview_border"
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="1"
+                                android:text="Project Type "
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                            <View
+
+                                android:background="#D3D3D3"
+                                android:layout_width="1dp"
+                                android:layout_height="fill_parent"/>
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="3"
+                                android:text="Residential Colony"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:background="@drawable/textview_border"
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="1"
+                                android:text="Price Type "
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                            <View
+
+                                android:background="#D3D3D3"
+                                android:layout_width="1dp"
+                                android:layout_height="fill_parent"/>
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="3"
+                                android:text="601/- sq. ft."
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:background="@drawable/textview_border"
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="1"
+                                android:text="Scheme Type"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                            <View
+
+                                android:background="#D3D3D3"
+                                android:layout_width="1dp"
+                                android:layout_height="fill_parent"/>
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="3"
+                                android:text="Residential Plots"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+                        <LinearLayout
+
+                            android:background="@drawable/textview_border"
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="1"
+                                android:text="Payment Plan"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                            <View
+
+                                android:background="#D3D3D3"
+                                android:layout_width="1dp"
+                                android:layout_height="fill_parent"/>
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="3"
+                                android:text="100% Down Payment Plan and EMI Plan"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <!--    <       End   ..........................................Kanpur Data>>>-->
+
+
+                <!--   <.....................................Varanashi.................-->
+
+                <LinearLayout
+                    android:id="@+id/varanashi_linear"
+                    android:background="@drawable/textview_border"
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="4"
+
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:padding="5dp"
+                        android:text="Varanashi"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                    <FrameLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/iv_varanashi_down"
+                            android:padding="5dp"
+                            android:src="@mipmap/icon_arrow_down"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp" />
+
+                        <ImageView
+                            android:visibility="gone"
+                            android:id="@+id/iv_varanashi_up"
+                            android:padding="5dp"
+                            android:src="@mipmap/icon_arrow_up"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp" />
+
+                    </FrameLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                     android:visibility="gone"
+                    android:id="@+id/linear_varanashi_visibility"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="#000"
+                        android:layout_gravity="center"
+                        android:textSize="22sp"
+                        android:gravity="center"
+                        android:text="Kashiyana"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:background="#4DC2E6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:padding="10dp"
+                            android:textColor="#fff"
+                            android:textSize="20sp"
+                            android:text="Sector 1 = 1000/- sq. ft. \n Sector 2 = 900/- sq. ft.\n Sector 3-4 = 900/- sq. ft."
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:background="#000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"/>
+
+                    <TextView
+                        android:textColor="#000"
+                        android:text="Project Location Details"
+                        android:textSize="24dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <LinearLayout
+
+                            android:background="@drawable/textview_border"
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="1"
+                                android:text="Location"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                            <View
+
+                                android:background="#D3D3D3"
+                                android:layout_width="1dp"
+                                android:layout_height="fill_parent"/>
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="3"
+                                android:text="Near Raja Talab (Banaras)"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:background="@drawable/textview_border"
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="1"
+                                android:text="Project Type "
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                            <View
+
+                                android:background="#D3D3D3"
+                                android:layout_width="1dp"
+                                android:layout_height="fill_parent"/>
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="3"
+                                android:text="Residential Colony"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                 <!--       <LinearLayout
+
+                            android:background="@drawable/textview_border"
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="1"
+                                android:text="Price Type "
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                            <View
+
+                                android:background="#D3D3D3"
+                                android:layout_width="1dp"
+                                android:layout_height="fill_parent"/>
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="3"
+                                android:text="601/- sq. ft."
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+-->
+                        <LinearLayout
+
+                            android:background="@drawable/textview_border"
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="1"
+                                android:text="Scheme Type"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                            <View
+
+                                android:background="#D3D3D3"
+                                android:layout_width="1dp"
+                                android:layout_height="fill_parent"/>
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="3"
+                                android:text="Residential Plots"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+                        <LinearLayout
+
+                            android:background="@drawable/textview_border"
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="1"
+                                android:text="Payment Plan"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                            <View
+
+                                android:background="#D3D3D3"
+                                android:layout_width="1dp"
+                                android:layout_height="fill_parent"/>
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="3"
+                                android:text="100% Down Payment Plan and EMI Plan"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <!--    <       End   ..........................................Varanashi Data>>>-->
+
+                <!--   <.....................................Allahabad.................-->
+
+                <LinearLayout
+                    android:id="@+id/allahabad_linear"
+                    android:background="@drawable/textview_border"
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="4"
+
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:padding="5dp"
+                        android:text="Allahabad"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                    <FrameLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/iv_allahabad_down"
+                            android:padding="5dp"
+                            android:src="@mipmap/icon_arrow_down"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp" />
+
+                        <ImageView
+                            android:visibility="gone"
+                            android:id="@+id/iv_allahabad_up"
+                            android:padding="5dp"
+                            android:src="@mipmap/icon_arrow_up"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp" />
+
+                    </FrameLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/linear_allahabad_visibility"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="#000"
+                        android:layout_gravity="center"
+                        android:textSize="22sp"
+                        android:gravity="center"
+                        android:text="Zaire Sparkle Valley"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:background="#4DC2E6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:padding="10dp"
+                            android:textColor="#fff"
+                            android:textSize="20sp"
+                            android:text="451/- sq. ft."
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:padding="10dp"
+                            android:textColor="#fff"
+                            android:text="Zaire Sparkle Valley Project is the latest venture of Shine City and it is in Allahabad, a city whose each drop of water is like a touchstone. Zaire Sparkle Valley project is having beautiful belt of greenery around the whole project area which is the core element in all Shine City projects. The most advanced and latest construction technologies are used in building the housing scheme in Zaire Sparkle Valley.
+
+Zaire Sparkle Valley Project is an exceptional offer for the house searcher who wants to settle down in a spiritual place like Allahabad."
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:background="#000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"/>
+
+                    <TextView
+                        android:textColor="#000"
+                        android:text="Project Location Details"
+                        android:textSize="24dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <LinearLayout
+
+                            android:background="@drawable/textview_border"
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="1"
+                                android:text="Location"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                            <View
+
+                                android:background="#D3D3D3"
+                                android:layout_width="1dp"
+                                android:layout_height="fill_parent"/>
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="3"
+                                android:text="Kanti Pargna Arail, Tehsil Bara, Rewa Road, Allahabad."
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:background="@drawable/textview_border"
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="1"
+                                android:text="Project Type "
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                            <View
+
+                                android:background="#D3D3D3"
+                                android:layout_width="1dp"
+                                android:layout_height="fill_parent"/>
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="3"
+                                android:text="Residential Colony"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                             <LinearLayout
+
+                                   android:background="@drawable/textview_border"
+                                   android:orientation="horizontal"
+                                   android:layout_width="fill_parent"
+                                   android:layout_height="fill_parent">
+
+                                   <TextView
+                                       android:padding="5dp"
+                                       android:layout_weight="1"
+                                       android:text="Price Type "
+                                       android:layout_width="0dp"
+                                       android:layout_height="wrap_content" />
+
+                                   <View
+
+                                       android:background="#D3D3D3"
+                                       android:layout_width="1dp"
+                                       android:layout_height="fill_parent"/>
+                                   <TextView
+                                       android:padding="5dp"
+                                       android:layout_weight="3"
+                                       android:text="451/- sq. ft."
+                                       android:layout_width="0dp"
+                                       android:layout_height="wrap_content" />
+
+                               </LinearLayout>
+
+                        <LinearLayout
+
+                            android:background="@drawable/textview_border"
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="1"
+                                android:text="Scheme Type"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                            <View
+
+                                android:background="#D3D3D3"
+                                android:layout_width="1dp"
+                                android:layout_height="fill_parent"/>
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="3"
+                                android:text="Residential Plots"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+                        <LinearLayout
+
+                            android:background="@drawable/textview_border"
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="1"
+                                android:text="Payment Plan"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                            <View
+
+                                android:background="#D3D3D3"
+                                android:layout_width="1dp"
+                                android:layout_height="fill_parent"/>
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_weight="3"
+                                android:text="100% Down Payment Plan and EMI Plan"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <!--    <       End   ..........................................Allahabad Data>>>-->
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

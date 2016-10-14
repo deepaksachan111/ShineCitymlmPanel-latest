@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:id="@+id/relative_payout"
+    tools:context="com.lucknow.deepaksachan.shinecity_mlmpanel.PayoutReportDisplayFragment">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:padding="5dp"
+                android:background="@color/black"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/white"
+                    android:text="Date"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+            <!--    <TextView
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:text="PayDetail"
+                    android:layout_weight="1.4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />-->
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:text="H.Allot"
+                    android:layout_weight=".7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:text="H.Incen"
+                    android:layout_weight=".7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:text="S.Incen"
+                    android:layout_weight=".7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+            <!--    <TextView
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:text="TDS"
+                    android:layout_weight=".7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />-->
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:text="G.Amt"
+                    android:layout_weight=".7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+
+             <!--   <TextView
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:text="Process"
+                    android:layout_weight=".7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />-->
+                <TextView
+                    android:layout_weight=".5"
+                    android:gravity="right"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:text="NetAmt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <ListView
+                android:id="@+id/listview_payoutdetail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </ListView>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_total_noofrecords"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <TextView
+            android:padding="10dp"
+            android:background="#648cf1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:shadowColor="#f1f1f1"
+            android:text="Total No of Records: "
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:padding="10dp"
+            android:background="#648cf1"
+            android:id="@+id/txt_payout_no_records"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:shadowColor="#f1f1f1"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_payoutdeatail_date"
+            android:text="Date"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+   <!--     <TextView
+            android:id="@+id/tv_payoutdeatail_paydetail"
+            android:layout_marginLeft="10dp"
+            android:text="PayDetail"
+            android:layout_weight="1.4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />-->
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_payoutdeatail_harnonyallot"
+            android:layout_marginLeft="10dp"
+            android:text="H.Allot."
+            android:layout_weight=".7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_payoutdeatail_harmony"
+            android:layout_marginLeft="10dp"
+            android:text="Harmony"
+            android:layout_weight=".7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_payoutdeatail_selfincentive"
+            android:layout_marginLeft="10dp"
+            android:text="Selfincen."
+            android:layout_weight=".7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_payoutdeatail_grassamt"
+            android:layout_marginLeft="10dp"
+            android:text="GrossAmt"
+            android:layout_weight=".7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+     <!--   <TextView
+            android:id="@+id/tv_payoutdeatail_tds"
+            android:layout_marginLeft="10dp"
+            android:text="TDS"
+            android:layout_weight=".7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />-->
+<!--
+        <TextView
+            android:id="@+id/tv_payoutdeatail_processing"
+            android:layout_marginLeft="10dp"
+            android:text="Processing"
+            android:layout_weight=".7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />-->
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_weight=".5"
+            android:gravity="right"
+            android:id="@+id/tv_payoutdeatail_netamt"
+            android:layout_marginLeft="10dp"
+            android:text="NetAmt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+<LinearLayout
+    android:background="@drawable/line_complete"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>

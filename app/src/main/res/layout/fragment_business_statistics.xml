@@ -1,0 +1,683 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lucknow.deepaksachan.shinecity_mlmpanel.BusinessStatisticsFragment">
+  <ScrollView
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:background="@color/actionbarthemecolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Business Statistics" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="5dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:background="@color/green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Active" />
+        <TextView
+          android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:background="@color/gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Basic Information" />
+      <LinearLayout
+          android:padding="5dp"
+          android:orientation="horizontal"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content">
+          <TextView
+              android:textColor="@color/black"
+              android:text="ID"
+              android:layout_weight="1"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:id="@+id/tv_busistatics_id"
+              android:text="ID"
+              android:layout_weight="1"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:textColor="@color/black"
+              android:text="Name"
+              android:layout_weight="1"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:id="@+id/tv_busistatics_name"
+              android:text="Name"
+              android:layout_weight="1"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content" />
+      </LinearLayout>
+        <LinearLayout
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:text="Join Date"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_busistatics_joiningdate"
+                android:text="Joining Date"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/black"
+                android:text="Pan No"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_busistatics_panno"
+                android:text="Pan no."
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:text="Spon.ID"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_busistatics_sponsorid"
+                android:text="SponsorID"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/black"
+                android:text="Spon.Name"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_busistatics_sponsorname"
+                android:text="SponsorName"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:text="Bank Information"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:background="@color/gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"/>
+        <LinearLayout
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:text="Acc. Number"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_busistatics_accountnumber"
+                android:text="Account Number"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/black"
+                android:text="BankName"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_busistatics_bankname"
+                android:text="Bank Name"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:text="BranchName"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv_busistatics_branchname"
+                android:text="Branch Name"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/black"
+                android:text="IFSC Code"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_busistatics_ifsccode"
+                android:text="IFSC Code"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:text="New Business Information"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:background="@color/gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"/>
+        <LinearLayout
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text=""
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Left"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/black"
+                android:text="Right"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:text="All"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_busistatics_leftall"
+                android:text="Left All"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_busistatics_rightall"
+                android:text="Right All"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/red"
+                android:text="Matched"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/red"
+                android:id="@+id/tv_busistatics_leftmatched"
+                android:text="Left All"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/red"
+                android:id="@+id/tv_busistatics_rightmatched"
+                android:text="Right All"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/green"
+                android:text="Balanced"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/green"
+                android:id="@+id/tv_busistatics_leftbalanced"
+                android:text="Left All"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/green"
+                android:id="@+id/tv_busistatics_rightbalanced"
+                android:text="Right All"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:text="Team Information"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:background="@color/gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"/>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text=""
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Left"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/black"
+                android:text="Right"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:textColor="@color/black"
+                android:text="Total"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_busistatics_total_leftteam"
+                android:text="Left Team"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_busistatics_total_rightteam"
+                android:text="Right Team"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:text="Old Business Information"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:background="@color/gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"/>
+        <LinearLayout
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text=""
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Left"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/black"
+                android:text="Right"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:text="All"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_busistatics_leftallold"
+                android:text="Left All"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_busistatics_rightallold"
+                android:text="Right All"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/red"
+                android:text="Matched"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/red"
+                android:id="@+id/tv_busistatics_leftmatchedold"
+                android:text="Left All"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/red"
+                android:id="@+id/tv_busistatics_rightmatchedold"
+                android:text="Right All"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/green"
+                android:text="Balanced"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/green"
+                android:id="@+id/tv_busistatics_leftbalancedold"
+                android:text="Left All"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/green"
+                android:id="@+id/tv_busistatics_rightbalancedold"
+                android:text="Right All"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--   payoutdetail data-->
+     <LinearLayout
+         android:padding="5dp"
+         android:id="@+id/linear_business_satistics_payout"
+         android:orientation="vertical"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content">
+       <TextView
+           android:layout_marginTop="10dp"
+           android:padding="5dp"
+           android:textSize="16sp"
+           android:background="@color/gray"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/white"
+           android:text="Payout Details" />
+
+       <LinearLayout
+           android:padding="5dp"
+           android:background="@drawable/tablebackground"
+           android:orientation="horizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textColor="@color/black"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text="Harmony" />
+           <TextView
+               android:id="@+id/businesssatistics_pay_harmony"
+               android:textColor="@color/black"
+               android:layout_weight="1"
+               android:padding="5dp"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text=" " />
+       </LinearLayout>
+       <LinearLayout
+           android:padding="5dp"
+           android:background="@drawable/textview_border"
+           android:orientation="horizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:textColor="@color/black"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text="Harmony(Allotment)" />
+           <TextView
+               android:id="@+id/businesssatistics_pay_harmony_allot"
+               android:textColor="@color/black"
+               android:layout_weight="1"
+               android:padding="5dp"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text=" " />
+       </LinearLayout>
+       <LinearLayout
+           android:padding="5dp"
+           android:background="@drawable/tablebackground"
+           android:orientation="horizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textColor="@color/black"
+               android:fontFamily="sans-serif"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text="Direct" />
+           <TextView
+               android:id="@+id/businesssatistics_pay_direct"
+               android:textColor="@color/black"
+               android:layout_weight="1"
+               android:padding="5dp"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text=" " />
+       </LinearLayout>
+       <LinearLayout
+           android:padding="5dp"
+           android:background="@drawable/textview_border"
+           android:orientation="horizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:textColor="@color/green"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text="Total" />
+           <TextView
+               android:id="@+id/businesssatistics_pay_total"
+               android:textColor="@color/green"
+               android:layout_weight="1"
+               android:padding="5dp"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text=" " />
+       </LinearLayout>
+
+       <LinearLayout
+           android:padding="5dp"
+           android:background="@drawable/tablebackground"
+           android:orientation="horizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textColor="@color/red"
+               android:fontFamily="sans-serif"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text="TDS" />
+           <TextView
+               android:id="@+id/businesssatistics_pay_tds"
+               android:textColor="@color/red"
+               android:layout_weight="1"
+               android:padding="5dp"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text=" " />
+       </LinearLayout>
+       <LinearLayout
+           android:padding="5dp"
+           android:background="@drawable/textview_border"
+           android:orientation="horizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:textColor="@color/red"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text="HS" />
+           <TextView
+               android:id="@+id/businesssatistics_pay_hs"
+               android:textColor="@color/red"
+               android:layout_weight="1"
+               android:padding="5dp"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text=" " />
+       </LinearLayout>
+
+       <LinearLayout
+           android:padding="5dp"
+           android:background="@drawable/tablebackground"
+           android:orientation="horizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textColor="@color/red"
+               android:fontFamily="sans-serif"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text="Total Deduction" />
+           <TextView
+               android:id="@+id/businesssatistics_pay_totaldedction"
+               android:textColor="@color/red"
+               android:layout_weight="1"
+               android:padding="5dp"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text=" " />
+       </LinearLayout>
+       <LinearLayout
+           android:padding="5dp"
+           android:background="@drawable/textview_border"
+           android:orientation="horizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:textStyle="bold"
+               android:textColor="@color/green"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text="Net Amount" />
+           <TextView
+               android:id="@+id/businesssatistics_pay_netamount"
+               android:textStyle="bold"
+               android:textColor="@color/green"
+               android:layout_weight="1"
+               android:padding="5dp"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:text=" " />
+       </LinearLayout>
+     </LinearLayout>
+   </LinearLayout>
+  </ScrollView>
+</LinearLayout>

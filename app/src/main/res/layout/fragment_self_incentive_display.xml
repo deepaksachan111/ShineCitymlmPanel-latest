@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.lucknow.deepaksachan.shinecity_mlmpanel.SelfIncentiveDisplayFragment">
+
+   <LinearLayout
+
+       android:padding="5dp"
+       android:background="@color/black"
+       android:orientation="horizontal"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content">
+       <TextView
+           android:textColor="@color/white"
+           android:text="FromID"
+           android:layout_weight=".7"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content" />
+        <TextView
+           android:textColor="@color/white"
+         android:layout_marginRight="2dp"
+           android:text="Member"
+           android:layout_weight=".7"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:textColor="@color/white"
+           android:text="Currdate"
+           android:layout_weight="1"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content" />
+
+       <TextView
+           android:textColor="@color/white"
+           android:text="Closdate"
+           android:layout_weight="1"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:textColor="@color/white"
+           android:text="PayNo"
+           android:layout_weight=".4"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_weight=".4"
+           android:gravity="right"
+           android:textColor="@color/white"
+           android:text="Amt"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content" />
+   </LinearLayout>
+<ListView
+    android:id="@+id/listview_selfincentive"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+</ListView>
+    <TextView
+        android:visibility="gone"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:id="@+id/tv_selfincentive_norecord"
+        android:textColor="@color/red"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

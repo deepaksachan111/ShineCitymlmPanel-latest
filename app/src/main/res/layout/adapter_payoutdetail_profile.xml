@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:id="@+id/tv_payoutdeatail_date_profile"
+                android:text="PayDate"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+
+            <TextView
+                android:id="@+id/tv_payoutdeatail_grassamt_profile"
+                android:layout_marginLeft="10dp"
+                android:text="Grass Amt"
+                android:layout_weight=".7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_payoutdeatail_deduction_profile"
+                android:layout_marginLeft="10dp"
+                android:text="Deduction"
+                android:layout_weight=".7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:gravity="right"
+                android:id="@+id/tv_payoutdeatail_netamt_profile"
+                android:layout_marginLeft="10dp"
+                android:text="NetAmt"
+                android:layout_weight=".7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

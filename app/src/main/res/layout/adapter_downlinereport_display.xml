@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+            <!--    <TextView
+                    android:textColor="@color/red"
+                    android:text="JoiningDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />-->
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/txt_joiningdate"
+                    android:text="JoinDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+          <!--  <TextView
+                android:textColor="@color/red"
+                android:text="MemberName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />-->
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:id="@+id/txt_membername"
+                android:text="Member"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        <!--    <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/red"
+                    android:text="(MemberID)"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/txt_memberid"
+                    android:text="(MemberID)"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>-->
+            <LinearLayout
+               android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+              <!--  <TextView
+                    android:textColor="@color/red"
+                    android:text="ParentName "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />-->
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/txt_parentname"
+                    android:text="Parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+          <!--  <LinearLayout
+               android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/red"
+                    android:text="(ParentID)"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/txt_parenid"
+                    android:text="(ParentID)"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>-->
+
+
+                <LinearLayout
+                    android:layout_weight=".50"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                  <!--  <TextView
+                        android:textColor="@color/red"
+                        android:text="TotalAmt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />-->
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        android:id="@+id/txt_totalamt"
+                        android:text="Amt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            <LinearLayout
+                android:gravity="right"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+           <!--     <TextView
+                    android:textColor="@color/red"
+                    android:text="Status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />-->
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/txt_status"
+                    android:text="Status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            </LinearLayout>
+
+
+</RelativeLayout>

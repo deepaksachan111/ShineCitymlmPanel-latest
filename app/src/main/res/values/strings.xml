@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">ShineCity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="cd_navdrawer_image">Navigation Drawer Image</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Profile</item>
+        <item >Account</item>
+        <item >Photos</item>
+        <item >Communities</item>
+        <item >Pages</item>
+        <item >What\'s Hot</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="Select_payoutno">Select</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_epin_registration">EPinRegistration</string>
+    <string name="title_activity_epin_registered_success">EPinRegisteredSuccess</string>
+    <string name="title_activity_forget_password">ForgetPassword</string>
+    <string name="title_activity_otppassword_change">OTPPasswordChange</string>
+    <string name="title_activity_all_page">AllPageActivity</string>
+    <string name="title_activity_aboutus">AboutusActivity</string>
+<!-- TODO: Remove or change this placeholder text -->
+
+
+
+    <string name="text_with_bullet">\u2022</string>
+   <string name="about_company">Shinecity Infra Project Pvt. Ltd. today is one of the fastest emerging key players in the Indian real estate landscape. Known for its innovative approach to offer state-of-the art green structures, along with sustainable models, Shinecity Infra Project Pvt. Ltd. is committed to mark its excellence in Green Construction in skyline in India.
+
+Setting benchmarks by initiating the concept of green building technology in North India. Shinecity Infra Project offers the most innovative and diversified product mix comprising Resident, Commercial\IT Park, Retails, Hotels, Farms House and SEZ\'s.
+
+Shine City\'s Primary business is development of residence, commercial &amp; retail properties. The company has a unique business model with earnings arising from development Shine City offers you the opportunity to live life in a relaxed yet grand way. So while you sip on chai with your friends or read a book or enjoying the scenery or simply take a walk with your loved ones, we see to it that you home and its amenities are a perfect blend of comfort and style.
+
+</string>
+
+    <string name="mission_vission">Shine City is a Signature for Comfort Home &amp; Luxury Lives. Our motto is to make Housing a Luxury Reality at affordable price. Company desire to give housing comfort to lives of the people at worth price. Company aims to fill the lives of people with happiness of having their own home, their own housing comfort.
+
+<b><big>Our philosophy believes is to develop HOME instead of HOUSE for the People.</big></b>
+
+\nCompany believes in transparency and principle driven business approach. Our business values are abided by Delivering Quality, Building Trust and High Customer Satisfaction. Shine City is cemented firm in the real estate industry since long to provide quality homes and creating value to customers housing investments. Company opt new technologies to its construction to provide advance and perfect homes for the people.
+
+Giving meaning to the housing comfort of the people company runs a tab service for its customers. Giving user friendly services is the company\s ultimate goal. Tab services of Shine City provide easy accessibility of the facilities at doorstep of the customers. Tab services are given in every form virtually as well as physically to the customers. Either an executive visit to the customer place or through internet tab service is made feasible for the customer. Shine City is the first to introduce the Tab services for its customers.
+
+Company aims to build homes for the people all across the globe in the near future and give a happy experience to own a home through its Tab services.</string>
+
+
+    <string name="ceo_message">On behalf of the Management team and all staff of Shine City, I welcome you to our official website. Thank you for your valuable time to visit the website of our company. I take great pride to present the Shine City the new age home providers in Lucknow. Starting from the modest our company is listed as one of the most successful company in the real estate industry. On this platform I would like to express my gratitude for the commitment of my employees, stakeholders and investors. I would also like to thanks for the confidence and trust which they have shown in my company.
+
+Our focus is to reach every common man for his home need. Our tab service experience will spread happiness and relaxation in the lives of the people. Our eco friendly approach towards construction of home, township, and project will compel the world to follow our footprints in real estate industry. In reciprocation, I request all customers to continue their valuable faith and believe in us. And help us to change the sky line of the city and the world across the globe.
+
+I believe trust and name is not build overnight so Shine city will keep on pouring its hard work and state of the art infrastructure homes across the city. We commit ourselves to the service of mankind.
+
+<big>\nWe will make a difference in the future life of a common man.</big></string>
+    <string name="title_activity_web_mission99">WebMission99</string>
+    <string name="title_activity_contact_us">ContactUsActivity</string>
+
+
+
+    <string name="contact_us_name">SHINE CITY INFRA PROJECT PVT. LTD.</string>
+    <string name="contact_us_head_office_add">1/5, Fourth Floor, R-Square Complex,
+        Vipul Khand, Gomtinagar,
+        Lucknow - 226010</string>
+    <string name="contact_us_corp_office_add"> A 105 South city,
+        PGI Road, Near Shaheed Path,
+        Lucknow</string>
+    <string name="title_activity_project">ProjectActivity</string>
+
+</resources>

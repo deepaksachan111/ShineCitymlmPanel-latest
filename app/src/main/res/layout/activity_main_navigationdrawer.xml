@@ -1,0 +1,338 @@
+
+
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- The main content view -->
+
+<LinearLayout
+    android:id="@+id/lll"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar">
+    </include>
+    <FrameLayout
+
+        android:background="#fff"
+        android:id="@+id/mainContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        </FrameLayout>
+</LinearLayout>
+
+    <!-- The navigation drawer -->
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:id="@+id/drawerPane"
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fillViewport="true"
+            android:fadeScrollbars="false"
+            android:scrollbars="vertical">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        <!-- Profile Box -->
+
+        <RelativeLayout
+            android:padding="10dp"
+            android:id="@+id/profileBox"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/actionbarthemecolor">
+
+   <!--         <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/avatar"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="loading"
+                android:src="@drawable/logo"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="1dp" />-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="4dp"
+                    android:text="Welcome"
+                    android:textColor="#fff"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:id="@+id/userName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#fff"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!-- List of Actions (pages) -->
+      <!--  <ExpandableListView
+            android:id="@+id/list_slidermenu"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profileBox"
+            android:background="#ffffffff"
+            android:choiceMode="singleChoice" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_complete"></LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/linearlayoutfirst_navigation"
+            android:layout_width="280dp"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/profileBox"
+            android:layout_marginTop="1dp"
+            android:background="#09c"
+            android:orientation="vertical">
+            <!--  navigation data-->
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/liner_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/profile"
+                    android:gravity="center" />
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/activity_main_tvMyProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Dashboard"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line_complete"></LinearLayout>
+
+
+
+
+
+            <!-- My Report fragment-->
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:padding="7dp"
+                    android:id="@+id/linearmyreports_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="7dp"
+                        android:background="@drawable/account"
+                        android:gravity="center" />
+
+                    <TextView
+
+                        android:id="@+id/activity_main_reports"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:text="Reports"
+                        android:textColor="#ffffff" />
+
+                    <FrameLayout
+                        android:layout_marginLeft="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/down_arrow"
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"
+                            android:layout_marginLeft="35dp"
+                            android:background="@drawable/down"
+                            android:gravity="center" />
+
+                        <ImageView
+                            android:id="@+id/up_arrow"
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"
+                            android:layout_marginLeft="35dp"
+                            android:background="@drawable/up_icon"
+                            android:gravity="center"
+                            android:visibility="invisible" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/line_complete"></LinearLayout>
+            </LinearLayout>
+            <!-- Expandable view -->
+            <LinearLayout
+                android:id="@+id/expandlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ListView
+
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/ListViewreports"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"></ListView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line_complete"></LinearLayout>
+            <!--  group structure data-->
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/linear_groupstructure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/usergroupicon"
+                    android:gravity="center" />
+
+                <TextView
+                 android:gravity="center"
+                    android:id="@+id/tv_groupstrcture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Group Structure"
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line_complete"></LinearLayout>
+            <!-- Change password  -->
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/linear_changepasscode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/e_pin"
+                    android:gravity="center" />
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/tv_changepasscode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Change Password"
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line_complete"></LinearLayout>
+
+            <!-- Change Teme  -->
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/liner_logout_changetheme"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/ic_changepng"
+                    android:gravity="center" />
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/activity_main_logout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Change Theme"
+                    android:textColor="#ffffff" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line_complete"></LinearLayout>
+            <!-- Training -->
+
+
+
+        </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</android.support.v4.widget.DrawerLayout>

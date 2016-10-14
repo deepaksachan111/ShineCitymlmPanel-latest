@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.lucknow.deepaksachan.shinecity_mlmpanel.HarmonyInsentiveDisplayFragment">
+<LinearLayout
+    android:id="@+id/linearfirst"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+
+        android:padding="10dp"
+        android:background="@color/black"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="CurrDate"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Payout No"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="ClosDate"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight=".5"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Amount"
+            android:gravity="right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listview_harmonyincentive"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+</LinearLayout>
+    <TextView
+        android:layout_below="@+id/linearfirst"
+        android:visibility="gone"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:id="@+id/tv_harmonyincentive_norecord"
+        android:textColor="@color/red"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <TextView
+            android:padding="10dp"
+            android:background="#648cf1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:shadowColor="#f1f1f1"
+            android:text="Total No of Records: "
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:padding="10dp"
+            android:background="#648cf1"
+            android:id="@+id/txt_harmony_totatlno_records"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:shadowColor="#f1f1f1"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+</LinearLayout>
+
+    </RelativeLayout>

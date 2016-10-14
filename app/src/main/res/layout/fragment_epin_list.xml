@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.lucknow.deepaksachan.shinecity_mlmpanel.EPinListFragment">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="Status" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:background="@drawable/recta_edittext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <Spinner
+                android:layout_weight="1"
+                android:ellipsize="marquee"
+                android:id="@+id/spi_epinlist_status"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="E-PinNo." />
+
+            <EditText
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/edt_epinlist_epinno"
+                android:padding="10dp"
+                android:hint="E-Pinno "
+                android:background="@drawable/recta_edittext"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:focusableInTouchMode="false"
+            android:id="@+id/edt_epinlist_fromdate"
+            android:padding="10dp"
+            android:hint="Join Form "
+            android:background="@drawable/recta_edittext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical" />
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:src="@drawable/claender2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right|center_vertical" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:focusableInTouchMode="false"
+            android:id="@+id/edt_epinlist_todate"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:hint="Join To "
+            android:background="@drawable/recta_edittext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:paddingBottom="3dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/claender2"
+            android:layout_width="40dp"
+            android:layout_height="42dp"
+            android:layout_gravity="right|bottom" />
+    </FrameLayout>
+    <Button
+        android:id="@+id/btn_get_pin_details"
+        android:text="Get pins Details"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

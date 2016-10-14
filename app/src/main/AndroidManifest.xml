@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.lucknow.quaere.shinecity_mlmpanel"
+    android:versionCode="2"
+    android:versionName="2.0">
+
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Network State Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.lucknow.quaere.shinecity_mlmpanel.DefaultScreenActivity"
+            android:label="ShineCity"
+            android:theme="@style/splashScreenTheme" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lucknow.quaere.shinecity_mlmpanel.LoginActivity"
+            android:configChanges="orientation|keyboardHidden"
+
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.lucknow.quaere.shinecity_mlmpanel.HomeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="stateUnchanged|adjustResize"
+            android:label="Home"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.lucknow.quaere.shinecity_mlmpanel.EPinRegistrationActivity"
+            android:label="@string/title_activity_epin_registration"
+            android:theme="@style/CustomActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.lucknow.quaere.shinecity_mlmpanel.EPinRegisteredSuccess"
+            android:label="@string/title_activity_epin_registered_success"
+            android:theme="@style/CustomActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.lucknow.quaere.shinecity_mlmpanel.OTPPasswordChangeActivity"
+            android:label="@string/title_activity_otppassword_change"
+            android:theme="@style/CustomActivityTheme" >
+        </activity>
+        <activity
+          android:name="com.lucknow.quaere.shinecity_mlmpanel.activity.AllPageActivity"
+            android:label="ShineCity"
+            android:theme="@style/ProfileTheme"
+            >
+
+        </activity>
+        <activity
+            android:name="com.lucknow.quaere.shinecity_mlmpanel.activity.AboutusActivity"
+            android:label="@string/app_name"
+            android:theme="@style/ProfileTheme" >
+        </activity>
+        <activity
+            android:name="com.lucknow.quaere.shinecity_mlmpanel.activity.WebMission99"
+            android:label="@string/title_activity_web_mission99"
+            android:theme="@style/ProfileTheme" >
+        </activity>
+        <activity
+            android:name="com.lucknow.quaere.shinecity_mlmpanel.activity.ContactUsActivity"
+            android:label="@string/title_activity_contact_us"
+            android:theme="@style/ProfileTheme" >
+        </activity>
+        <activity
+
+            android:theme="@style/ProfileTheme"
+            android:name="com.lucknow.quaere.shinecity_mlmpanel.activity.ProjectActivity"
+            android:label="@string/title_activity_project" >
+        </activity>
+    </application>
+
+</manifest>

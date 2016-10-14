@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lucknow.deepaksachan.shinecity_mlmpanel.SelfIncentiveFragment">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@drawable/recta_edittext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="Payout No"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:layout_weight="1"
+                android:prompt="@string/Select_payoutno"
+                android:ellipsize="marquee"
+                android:id="@+id/my_spinner_selfincentive"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <FrameLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:focusableInTouchMode="false"
+                android:id="@+id/edt_selfincentive_fromdate"
+                android:padding="10dp"
+                android:hint="Form Date"
+                android:background="@drawable/recta_edittext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical" />
+            <ImageView
+                android:layout_marginRight="10dp"
+                android:src="@drawable/claender2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right|center_vertical" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:focusableInTouchMode="false"
+                android:id="@+id/edt_selfincentive_todate"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:hint="To Date"
+                android:background="@drawable/recta_edittext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:paddingBottom="3dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/claender2"
+                android:layout_width="40dp"
+                android:layout_height="42dp"
+                android:layout_gravity="right|bottom" />
+        </FrameLayout>
+        <Button
+            android:id="@+id/btn_getDetails_selfincentive"
+            android:layout_marginTop="20dp"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:text="Get Details"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/tv_harmonyincentive_currentdate"
+            android:text="CurrDate"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/tv_harmonyincentive_payoutno"
+            android:text="Payout No"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/tv_harmonyincentive_closedate"
+            android:text="closDate"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight=".5"
+            android:textColor="@color/black"
+            android:id="@+id/tv_harmonyincentive_amount"
+            android:text="Amount"
+          android:gravity="right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/line_complete"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"></LinearLayout>
+</LinearLayout>
